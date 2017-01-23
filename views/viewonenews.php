@@ -5,6 +5,6 @@
     <title>Title</title>
 </head>
 <body>
- <?php echo $oneNews; ?>
+ <?php echo $oneNews['text']; ?>
 </body>
 </html>
