@@ -19,6 +19,7 @@ require_once __DIR__.'/../controllers/newsController.php';
         <td><?php echo $new['pabdate']; ?></td>
     </tr>
     <?php endforeach; ?>
+    <a href="/views/addnews.php">Добавить</a>
 </table>
 </body>
 </html>
